@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - EcoTech Spray Foam</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>About EcoTech Spray Foam</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Our Mission</h2>
+        <p>At EcoTech Spray Foam, we believe in creating energy-efficient spaces while preserving the environment. Our solutions ensure comfort, sustainability, and savings for our customers.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 EcoTech Spray Foam. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Example of refactoring code that previously may have used eval()
+        
+        // Let's say we had dynamic behavior like executing some JS code dynamically.
+        // Instead of using eval(), we can use a safer approach.
+
+        // Example of dynamically running safe functions
+        function dynamicFunctionCall(funcName, ...args) {
+            const safeFunctions = {
+                logMessage: function(msg) { console.log(msg); },
+                showAlert: function(msg) { alert(msg); }
+            };
+
+            if (safeFunctions[funcName]) {
+                safeFunctions[funcName](...args);
+            } else {
+                console.error('Function not found');
+            }
+        }
+
+        // Example usage:
+        dynamicFunctionCall('logMessage', 'Hello, this is a safe log!');
+    </script>
+</body>
+</html>
